@@ -1,3 +1,6 @@
+### This project is for Final Design Project of Computer Engineering (Koc University) 
+This is a college project, so this is not commercial
+
 ### Using Pandas and Apache Spark (pyspark) to create food recommendation systems. 
 We used Apache Sparks ALS matrix factorization to recommend foods to the users. 
 
@@ -12,7 +15,11 @@ finalData.csv
 
 allData.json folder contains all data. 
 
+menu.py reads menu.json contains which food most consumed by another foods. 
+
 #### model can be found in the model.py file. 
+
+After creating the recommendations and sample menu we send them to the Firebase Firestore Admin SDK to use in our Android Application. 
 
 ### The dataset we are using can be found on the internet;
 This dataset contains 1.9 million meals logged by 9.8K MyFitnessPal users on 71K food items from September 2014 through April 2015. Food items with similar textual description have been grouped together.

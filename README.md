@@ -8,6 +8,7 @@ We had to manipulate the datasets to create a model which will be useful to us.
 
 The base datasets are data.tsv and items.tsv. 
 
+
 #### manipulating and analyzings these datasets we created our own datasets;
 finalRatings.csv -> which contains user ratings. 
 
@@ -20,6 +21,9 @@ menu.py reads menu.json contains which food most consumed by another foods.
 #### model can be found in the model.py file. 
 
 After creating the recommendations and sample menu we send them to the Firebase Firestore Admin SDK to use in our Android Application. 
+
+ServiceAccountKey.json is needed if the code runs on local machine. But don't need that key in Google Cloud Platform. 
+Also we use GCP to train our model. 
 
 ### The dataset we are using can be found on the internet;
 This dataset contains 1.9 million meals logged by 9.8K MyFitnessPal users on 71K food items from September 2014 through April 2015. Food items with similar textual description have been grouped together.

@@ -1,11 +1,15 @@
 ### Using Pandas and Apache Spark (pyspark) to create food recommendation systems. 
 We used Apache Sparks ALS matrix factorization to recommend foods to the users. 
+
 We had to manipulate the datasets to create a model which will be useful to us. 
+
 The base datasets are data.tsv and items.tsv. 
 
 #### manipulating and analyzings these datasets we created our own datasets;
 finalRatings.csv -> which contains user ratings. 
+
 finalData.csv 
+
 allData.json folder contains all data. 
 
 #### model can be found in the model.py file. 

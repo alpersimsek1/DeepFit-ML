@@ -1,3 +1,7 @@
+### Using Pandas and Apache Spark (pyspark) to create food recommendation systems. 
+We used Apache Sparks ALS matrix factorization to recommend foods to the users. 
+
+### The dataset we are using can be found on the internet;
 This dataset contains 1.9 million meals logged by 9.8K MyFitnessPal users on 71K food items from September 2014 through April 2015. Food items with similar textual description have been grouped together.
 
 The dataset consists of data and item files. Their formats are described below.
